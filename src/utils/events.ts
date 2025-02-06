@@ -6,11 +6,11 @@ declare global {
 }
 
 type Payload = {
-  benefit: string[];
-  insight: string[];
-  tools: string[];
-  personal: string[];
-  premium: string[];
+  benefit: string;
+  insight: string;
+  tools: string;
+  personal: string;
+  premium: string;
   id: number;
 };
 
